@@ -1,0 +1,53 @@
+{"intents":[
+    {
+        "tag":"yes",
+        "pattern":["Yes","yes","yea","Yeah","Okay","OK","okay","yeah"],
+        "responses":["Okay then, let us proceed further. Can you tell us your name?"],
+        "context-set":""
+
+    },
+    {
+        "tag":"name",
+        "pattern":["John Doe", "I'm John Doe", "My name is John Doe", "John","johndoe","jon Doe","Shreya"],
+        "responses":["Now, to receive updates for our app please enter your email id."],
+        "context-set":""
+
+    },
+    {
+        "tag":"email",
+        "pattern":["abc@gmail.com, john.doe@gmail.com","abc12@gmail.com"],
+        "responses":["Please enter your mobile number"],
+        "context-set":""
+
+    },
+    {
+        "tag":"what",
+        "pattern":["What is the product?", "What does it do?", "Why?", "Why should I enter my details?", "What does it do", "How", "When","Whats"],
+        "responses":["We are launching a xyz product which is able to automate a certain task. This revolutionary product is currently under development. To recieve the earliest updates, please enter your name."],
+        "context-set":""
+
+    },
+    {
+        "tag":"mobile",
+        "pattern":["1234567890","5467890123","9845720231"],
+        "responses":["To proceed further, please enter your age"],
+        "context-set":""
+
+    },
+    {
+        "tag":"no",
+        "pattern":["no","nah","never mind","not interested"],
+        "responses":["Unfortunately, without entering your personal information, we cannot proceed further. Feel free to stick around for a while"],
+        "context-set":""
+
+    },
+    {
+        "tag":"age",
+        "pattern":["14","15","16","17","18","19","20","21","22","23","24","25","30","40","50"],
+        "responses":["Thank you for sharing your details with us. We will get back to you as soon as possible. To end the conversation, please enter quit"],
+        "context-set":""
+
+    }
+]
+
+}
